@@ -1,0 +1,12 @@
+projects:
+  allamplifychatt:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - chat
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
